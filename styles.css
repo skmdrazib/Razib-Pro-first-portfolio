@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    padding: 30px 50px 60px 50px;
+    background-color: #C0DEFF;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* -------------
+header 
+------------------*/
+.header-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.welcome-info>h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.profile-img{
+    border-radius: 100px;
+    border: 2px solid #00008B;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+
+
+/* ....... Contract Information ******************************** */
+
+
+.contact-info{
+    margin-top: 20px;
+}
+
+.contact-info>a{
+    color: blue;
+    font-size: 20px;
+}
+
+
+/* ..... Social Link ........ */
+.social-link{
+    display: flex;
+    font-size: 25px;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+
+.social-link-linkedin>{
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.social-link-linkedin>a{
+    color: #0A66C2;
+    align-items: flex-start;
+}
+
+
+
+.social-link-github>{
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.social-link-github>a{
+    color: #171515 ;
+    align-items: flex-start;
+}
+
+
+.social-link-gitlab>{
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.social-link-gitlab>a{
+    color: #fca326 ;
+    align-items: flex-start;
+}
+
+
+.social-link-facebook>{
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.social-link-facebook>a{
+    color: #4267B2  ;
+    align-items: flex-start;
+}
+
+.social-link-youtube>{
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.social-link-youtube>a{
+    color: #FF0000 ;
+    align-items: flex-start;
+}
+
+.social-link-instagram>{
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.social-link-instagram>a{
+    color: #E4405F   ;
+    align-items: flex-start;
+}
+
+.social-link-twitter>{
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.social-link-twitter>a{
+    color: #00acee  ;
+    align-items: flex-start;
+}
+
+
+
+/* ***************Table-Academic-Qualification******************************** */
+
+    table, td, th {
+      border: 1px solid;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+.Table-Academic-Qualification{
+
+    display: inline-table;
+    border: #00008B;
+    border: 1px solid;
+}
+
+
+
+/* ..... My Strengths & Weakness ........ */
+.section-strengths-weakness{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.strengths-weakness-display{
+    display: flex;
+    justify-content: space-between;
+    gap:25px;
+}
+
+
+.My-Strengths{
+    height: 170px;
+    width: 100%;
+    padding: 20px;
+    background-color: #F0FFFF;
+    border-radius: 15px;
+}
+
+.My-Weakness{
+    height: 170px;
+    width: 100%;
+    padding: 20px;
+    background-color: #F5F5DC;
+    border-radius: 15px;
+}
+
+
+
+
+/* technical section */
+.section-header{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.skill-display{
+    display: flex;
+    justify-content: space-between;
+    gap:25px;
+}
+
+
+.skill-card-OS{
+    height: 240px;
+    width: 100%;
+    padding: 20px;
+    background-color: #F0FFFF;
+    border-radius: 15px;
+}
+
+.skill-card-router{
+    height: 240px;
+    width: 100%;
+    padding: 20px;
+    background-color: #F5F5DC;
+    border-radius: 15px;
+}
+
+
+.skill-card-Network{
+    height: 240px;
+    width: 100%;
+    padding: 20px;
+    background-color: #C3FDB8;
+    border-radius: 15px;
+}
+
+.skill-card-Hardware{
+    height: 240px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ADD8E6;
+    border-radius: 15px;
+}
+
+.skill-card-Software{
+    height: 240px;
+    width: 100%;
+    padding: 20px;
+    background-color: #C0C0C0;
+    border-radius: 15px;
+}
+
